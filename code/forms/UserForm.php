@@ -45,8 +45,6 @@ class UserForm extends Form {
 		if(is_array($data)) {
 			$this->loadDataFrom($data);
 		}
-		
-		$this->setupFormErrors();
 
 		$this->extend('updateForm');
 	}
